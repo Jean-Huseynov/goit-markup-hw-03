@@ -28,9 +28,9 @@ ul {
 
 /* HEADER */
 /* header background */
-.page-header {
+/* .page-header {
 background: var(--accent-color);
-}
+} */
 
 .container {
     width: 1200px;
@@ -82,6 +82,7 @@ background: var(--accent-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
+    display: flex;
 
 }
 .header-container .link:hover,
@@ -107,7 +108,7 @@ display: flex;
 .auth-nav {
     display: flex;
 }
-.auth-nav-container .item + .item {
+.auth-nav .item + .item {
     margin-left: 50px;
 }
 
