@@ -150,16 +150,19 @@ margin: 200px 452px 0px 452px;
 /* button */
 .hero .button {
     margin: 30px 692px 200px 692px;
+    padding: 10px 32px 10px 32px;
+    width: 216px;
     text-decoration: none;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    /* identical to box height, or 188% */
-    letter-spacing: 0.06em;
+    letter-spacing: 0.05em;
     color: var(--accent-color);
     background: var(--link-focus);
-    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: 0px;
 }
 
 .hero .button:hover,
