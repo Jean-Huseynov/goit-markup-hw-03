@@ -1,0 +1,377 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root { 
+    --primary-text-color: #757575;  /* var(--primary-text-color) Line */
+    --title-text-color: #212121;  /* var(--title-text-color) Title */
+    --accent-color: #FFFFFF;  /* var(--accent-color) Accent */
+    --link-focus: #2196F3; /* var(--link-focus) */
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    color: var(--title-text-color);
+    background: var(--accent-color);
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+/* HEADER */
+/* header background */
+.page-header {
+    display: inline-block;
+    width: 1600px;
+/* background: var(--accent-color); */
+background-color: rgb(11, 79, 214);
+}
+
+
+/* logo */
+
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+}
+.page-header .web {
+    color: var(--link-focus);}
+.page-header .studio {
+    color: #000000;}
+
+.nav-container .logo {
+    display: inline-block;
+    margin: 24px 0px 25px 15px;
+}
+
+
+
+/* Site-nav    Auth-nav*/
+
+.header-container {
+    width: 1200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(236, 243, 50);
+}
+
+.header-container .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+
+}
+.header-container .link:hover,
+.header-container .link:focus {
+    color: var(--link-focus);
+    cursor: pointer;
+}
+
+/* .nav-container .item:not(:last-child) {
+   margin-right: 50px; 
+} */
+
+
+/* Site-nav */
+.site-nav {
+display: flex;
+}
+.nav-container .item + .item {
+    margin-left: 50px;
+}
+
+/* .header-nav-container {
+    display: flex;
+} */
+
+/* Auth-nav */
+.auth-nav {
+    display: flex;
+}
+.auth-nav-container .item + .item {
+    margin-left: 50px;
+}
+
+
+/* .header-container {
+    display: flex;
+} */
+
+
+
+/* HERO */
+.page-main .hero-container {
+display: inline-block;
+    width: 1600px;
+margin: 0px;
+    background: #2F303A;
+}
+
+
+/* hero - h1 */
+.hero .title {
+margin: 200px 452px 0px 452px;
+
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    /* or 136% */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--accent-color);
+
+}
+
+
+/* button */
+.hero .button {
+margin: 30px 692px 200px 692px;
+padding: 10px 32px 10px 32px;
+width: 216px;
+
+    text-decoration: none;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        /* identical to box height, or 188% */
+        letter-spacing: 0.06em;
+
+
+    color: var(--accent-color);
+    background: var(--link-focus);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+.hero .button:hover,
+.hero .button:focus {
+    color: var(--accent-color);
+    background: #0b85e8;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Наші переваги */
+.benefits .Our-advantages {
+    color: var(--title-text-color);
+}
+
+/* benefits - h3 */
+.benefits .title {
+    text-decoration: none;
+    font-family: inherit;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+
+/* benefits - p */
+.benefits .line {
+    text-decoration: none;
+    font-family: inherit;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        /* or 171% */
+        letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+
+/* Чим ми займаємося h3 */
+.services .title {
+    text-decoration: none;
+    font-family: inherit;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+/* Наша команда */
+.team {
+background: #F5F4FA;
+}
+
+.team .background {
+    background: var(--accent-color);
+}
+
+/* team title-team h3 */
+.team .title-team {
+    text-decoration: none;
+    font-family: inherit;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: var(--title-text-color);
+}
+
+/* team title h3 */
+.team .title {
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+/* team line p */
+.team .line {
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+
+
+/* Footer */
+.footer {
+        background: #2F303A;
+    }
+
+
+    /* logo */
+.footer .logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+        color: var(--link-focus);
+}
+.footer .web {
+    color: var(--link-focus);
+}
+.footer .studio {
+    color: var(--accent-color);
+}
+
+/* address */
+.address-link {
+    text-decoration: none;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        /* or 171% */
+        letter-spacing: 0.03em;
+        color: var(--accent-color);
+}
+.address-link:hover,
+.address-link:focus {
+    color: var(--link-focus);
+}
+
+/* mailto  tel */
+.footer .link {
+    text-decoration: none;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        /* or 171% */
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.address .link:hover,
+.address .link:focus {
+    color: var(--link-focus);
+}
+
+
+
+
+
+/* PORTFOLIO */
+/* button */
+.portfolio .button-Portfolio{
+    text-decoration: none;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.portfolio .button-Portfolio:hover,
+.portfolio .button-Portfolio:focus {
+    color: var(--accent-color);
+    background: var(--link-focus);
+    cursor: pointer;
+}
+
+
+/* portfolio - h2 */
+.portfolio .title {
+    text-decoration: none;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--title-text-color);
+}
+
+
+
+/* portfolio - p */
+.portfolio .line {
+text-decoration: none;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
