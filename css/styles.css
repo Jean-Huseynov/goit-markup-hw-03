@@ -27,11 +27,6 @@ ul {
 
 
 /* HEADER */
-/* header background */
-/* .page-header {
-background: var(--accent-color);
-} */
-
 .container {
     width: 1200px;
     padding: 0 15px;
@@ -40,7 +35,6 @@ background: var(--accent-color);
 
 
 /* logo */
-
 .logo {
     text-decoration: none;
     font-family: 'Raleway';
@@ -64,13 +58,6 @@ background: var(--accent-color);
 
 
 /* Site-nav    Auth-nav*/
-
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-}
-
 .header-container .link {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -83,12 +70,16 @@ background: var(--accent-color);
     letter-spacing: 0.02em;
     color: var(--title-text-color);
     display: flex;
-
 }
 .header-container .link:hover,
 .header-container .link:focus {
     color: var(--link-focus);
     cursor: pointer;
+}
+
+/* Site-nav */
+.nav-container .item + .item {
+    margin-left: 50px;
 }
 
 .site-nav{
@@ -99,23 +90,28 @@ background: var(--accent-color);
 display: flex;
 }
 
-.nav-container .item + .item {
-    margin-left: 50px;
-}
-
 
 /* Auth-nav */
-.auth-nav {
-    display: flex;
-}
 .auth-nav .item + .item {
     margin-left: 50px;
 }
 
+.auth-nav {
+    display: flex;
+}
+
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
 
 .header-container container {
     display: flex;
 }
+
+
 
 
 
@@ -174,8 +170,6 @@ margin: 200px 452px 0px 452px;
 
 
 
-
-
 /* Наші переваги */
 .benefits .Our-advantages {
     color: var(--title-text-color);
@@ -217,6 +211,8 @@ margin: 200px 452px 0px 452px;
         letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
+
+
 
 /* Наша команда */
 .team {
@@ -265,13 +261,25 @@ background: #F5F4FA;
 
 
 /* Footer */
-.footer {
-        background: #2F303A;
-    }
 
+.footer {
+    background: #2F303A;
+}
+
+.footer-container {
+    display: flex;
+    width: 1200px;
+        padding: 0 15px;
+        margin: 0 auto;
+        flex-direction: column;
+}
 
     /* logo */
 .footer .logo {
+    display: flex;
+        padding: 0px;
+        margin-top: 60px;
+
     text-decoration: none;
     font-family: 'Raleway';
         font-weight: 700;
@@ -290,6 +298,10 @@ background: #F5F4FA;
 
 /* address */
 .address-link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
     text-decoration: none;
     font-family: 'Roboto';
         font-style: normal;
@@ -305,8 +317,14 @@ background: #F5F4FA;
     color: var(--link-focus);
 }
 
+
+
 /* mailto  tel */
 .footer .link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
+
     text-decoration: none;
     font-family: 'Roboto';
         font-style: normal;
@@ -317,11 +335,25 @@ background: #F5F4FA;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-link .item:last-child {
+    margin-bottom: 60px;
+}
+
 .address .link:hover,
 .address .link:focus {
     color: var(--link-focus);
 }
 
+
+.address {
+    display: flex;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
