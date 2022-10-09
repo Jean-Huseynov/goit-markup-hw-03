@@ -289,31 +289,45 @@ margin-left: 402px;
 
 
 
-
-
-
 /* Наша команда */
 .team {
     background: #F5F4FA;
 }
-
 .team .background {
     background: var(--accent-color);
 }
 
+.team-container {
+    
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0px auto;
+}
+
+
+
 /* team title-team h3 */
 .team .title-team {
+    display: flex;
+margin-top: 94px;
+    margin-left: 453px;
+    margin-bottom: 0px;
+
     text-decoration: none;
     font-family: inherit;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
 /* team title h3 */
 .team .title {
+    display: flex;
+    margin-top: 30px;
+    
+
     text-decoration: none;
     font-family: inherit;
     font-weight: 500;
@@ -326,6 +340,10 @@ margin-left: 402px;
 
 /* team line p */
 .team .line {
+    display: flex;
+    margin-top: 10px;
+   
+
     text-decoration: none;
     font-family: inherit;
     font-weight: 400;
@@ -339,12 +357,10 @@ margin-left: 402px;
 
 
 
-
-
-
-
-
-
+.team .team-blok {
+    display: flex;
+    grid-column-gap: 30px;
+}
 
 
 
