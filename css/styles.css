@@ -29,11 +29,11 @@ ul {
     margin: 0px;
 }
 
-/* img {
+img {
 display: block;
     max-width: 100%;
     height: auto;
-} */
+}
     
     
 
@@ -585,6 +585,8 @@ margin: 0px 0px 30px 0px;
 }
 
 .img-blok .img-title-line {
+
     border: 1px solid #EEEEEE;
     padding: 20px 0px 24px 24px;
 }
+
