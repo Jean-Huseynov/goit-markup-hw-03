@@ -285,6 +285,7 @@ margin-bottom: 0px;
     display: flex;
     margin-top: 50px;
     grid-column-gap: 30px;
+    padding: 0px 0px 94px 0px;
 }
 
 
@@ -293,6 +294,7 @@ margin-bottom: 0px;
 /* Наша команда */
 .team {
     background: #F5F4FA;
+    padding: 94px 0;
 }
 .team .background {
    
@@ -300,7 +302,6 @@ margin-bottom: 0px;
 }
 
 .team-container {
-    
     width: 1200px;
     padding: 0 15px;
     margin: 0px auto;
@@ -310,8 +311,9 @@ margin-bottom: 0px;
 
 /* team title-team h3 */
 .team .title-team {
-    display: flex;
-    margin: 94px 0px 0px 453px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
 
 
     text-decoration: none;
@@ -364,7 +366,6 @@ justify-content: center;
 
 
 .team-blok .background {
-    margin-bottom: 94px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
 }
@@ -538,9 +539,7 @@ margin: 94px 0px 0px 297px;
 }
 
 .img-blok .background {
-border: 1px solid #EEEEEE;
 margin: 0px 0px 30px 0px;
-
 }
 
 .img-blok {
@@ -557,7 +556,7 @@ margin: 0px 0px 30px 0px;
 /* portfolio - h2 */
 .img-blok .title {
     display: flex;
-        margin: 20px 0px 0px 24px;
+        margin: 0px 0px 0px 0px;
 
     text-decoration: none;
     font-family: inherit;
@@ -573,7 +572,7 @@ margin: 0px 0px 30px 0px;
 /* portfolio - p */
 .img-blok .line {
     display: flex;
-    margin: 4px 0px 20px 24px;
+    margin: 4px 0px 0px 0px;
 
     text-decoration: none;
     font-family: inherit;
@@ -583,4 +582,9 @@ margin: 0px 0px 30px 0px;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.img-blok .img-title-line {
+    border: 1px solid #EEEEEE;
+    padding: 20px 0px 24px 24px;
 }
