@@ -132,27 +132,37 @@ display: block;
 
 
 /* HERO */
-.page-main .hero-container {
-    display: inline-block;
-    width: 1600px;
-    margin: 0px;
-    background: #2F303A;
+
+.hero-container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    text-align: center;
+
+    background-color: #2F303A;
 }
+
+.page-main .hero {
+width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
 
 
 /* hero - h1 */
 .hero .title {
-    margin: 200px 452px 0px 452px;
-
-    text-decoration: none;
-    font-family: inherit;
+        padding: 0px;
+            margin: 0;
+  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
-    /* or 136% */
+    line-height: 1.35;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    text-align: center;
     color: var(--accent-color);
 
 }
@@ -160,8 +170,11 @@ display: block;
 
 /* button */
 .hero .button {
-    margin: 30px 692px 200px 692px;
-    padding: 10px 32px 10px 32px;
+margin-top: 30px;
+    padding: 10px 32px;
+
+    /* margin: 30px 692px 200px 692px;
+    padding: 10px 32px 10px 32px; */
     width: 216px;
     text-decoration: none;
     font-family: inherit;
