@@ -29,11 +29,11 @@ ul {
     margin: 0px;
 }
 
-img {
+/* img {
 display: block;
     max-width: 100%;
     height: auto;
-}
+} */
     
     
 
@@ -268,6 +268,7 @@ margin-top: 10px;
     display: flex;
 margin-top: 118px;
 margin-left: 402px;
+margin-bottom: 0px;
 
 
     text-decoration: none;
@@ -294,6 +295,7 @@ margin-left: 402px;
     background: #F5F4FA;
 }
 .team .background {
+   
     background: var(--accent-color);
 }
 
@@ -309,9 +311,8 @@ margin-left: 402px;
 /* team title-team h3 */
 .team .title-team {
     display: flex;
-margin-top: 94px;
-    margin-left: 453px;
-    margin-bottom: 0px;
+    margin: 94px 0px 0px 453px;
+
 
     text-decoration: none;
     font-family: inherit;
@@ -325,8 +326,8 @@ margin-top: 94px;
 /* team title h3 */
 .team .title {
     display: flex;
-    margin-top: 30px;
-    
+    margin: 30px 0px 0px 0px;
+justify-content: center;
 
     text-decoration: none;
     font-family: inherit;
@@ -341,8 +342,8 @@ margin-top: 94px;
 /* team line p */
 .team .line {
     display: flex;
-    margin-top: 10px;
-   
+    margin: 10px 0px 30px 0px;
+justify-content: center;
 
     text-decoration: none;
     font-family: inherit;
@@ -355,13 +356,18 @@ margin-top: 94px;
 }
 
 
-
-
 .team .team-blok {
     display: flex;
     grid-column-gap: 30px;
+    margin-top: 50;
 }
 
+
+.team-blok .background {
+    margin-bottom: 94px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
 
 
 
@@ -468,7 +474,29 @@ margin-top: 94px;
 
 /* PORTFOLIO */
 /* button */
-.portfolio .button-Portfolio {
+.portfolio {
+  
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+
+.portfolio .title {
+    display: flex;
+    margin: 0px;
+    font-size: 0.1px;
+    line-height: 1.16px;
+    color: rgba(0, 0, 0, 0);
+}
+
+
+.portfolio .button-portfolio {
+    display: flex;
+    grid-column-gap: 10px;
+    padding: 6px 22px 6px 22px;
+
     text-decoration: none;
     font-family: inherit;
     font-weight: 500;
@@ -479,18 +507,54 @@ margin-top: 94px;
     color: var(--title-text-color);
     background: #F5F4FA;
     border-radius: 4px;
+    border: 0px;
 }
 
-.portfolio .button-Portfolio:hover,
-.portfolio .button-Portfolio:focus {
+.portfolio .button-portfolio:hover,
+.portfolio .button-portfolio:focus {
     color: var(--accent-color);
     background: var(--link-focus);
     cursor: pointer;
 }
 
+.portfolio-blok .button-Portfolio {
+    display: flex;
+}
+.portfolio-blok {
+    display: flex;
+grid-column-gap: 8px;
+margin: 94px 0px 0px 297px;
+    
+}
+.portfolio-container {
+    display: flex;
+}
+
+
+.portfolio-blok .img {
+    display: flex;
+}
+
+.img-blok .background {
+border: 1px solid #EEEEEE;
+}
+
+.img-blok {
+    grid-column-gap: 30px;
+    margin: 50px 0px 94px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
 
 /* portfolio - h2 */
-.portfolio .title {
+.img-blok .title {
+    display: flex;
+        margin: 20px 0px 0px 24px;
+
     text-decoration: none;
     font-family: inherit;
     font-weight: 700;
@@ -503,7 +567,10 @@ margin-top: 94px;
 
 
 /* portfolio - p */
-.portfolio .line {
+.img-blok .line {
+    display: flex;
+    margin: 4px 0px 0px 24px;
+
     text-decoration: none;
     font-family: inherit;
     font-weight: 400;
