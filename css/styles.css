@@ -297,6 +297,13 @@ margin-top: 10px;
 
 
 /* Чим ми займаємося h3 */
+.services {
+    padding: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
 .services-container {
     width: 1200px;
     padding: 0 15px;
@@ -306,7 +313,6 @@ margin-top: 10px;
 .services .title {
 margin: 0;
 padding: 0;
-padding-top: 118px;
 
     text-decoration: none;
     font-family: inherit;
@@ -322,7 +328,7 @@ padding-top: 118px;
 .services-blok {
     display: flex;
     grid-column-gap: 30px;
-    padding: 50px 0px 94px 0px;
+    margin: 50px 0px 0px 0px;
 }
 
 
@@ -495,7 +501,8 @@ margin-top: 20px;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.item-mt {
+.footer-link .item {
+    margin: 0;
     margin-top: 9px;
 }
 /* .footer-link .item:last-child {
@@ -523,15 +530,13 @@ margin-top: 20px;
 /* PORTFOLIO */
 /* button */
 .portfolio {
-padding: 50px 0px 94px 0px;
+padding: 94px 0px 94px 0px;
 }
 
 
 .page-header {
 border-bottom: 1px solid #ECECEC;;
 }
-
-
 
 .portfolio-container {
     width: 1200px;
@@ -584,7 +589,7 @@ grid-column-gap: 8px;
 margin: 0;
     
 }
-.portfolio-container {
+.portfolio-blok {
     justify-content: center;
     display: flex;
 }
@@ -593,9 +598,6 @@ margin: 0;
 
 /* IMG */
 
-/* .img-blok .background {
-margin: 0px 0px 60px 0px;
-} */
 
 .img-blok {
     margin: 50px 0px 0px 0px;
